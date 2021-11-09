@@ -1,0 +1,120 @@
+.header-section{
+    border-top: 8px solid rgb(68, 67, 67);
+    border-bottom: 8px solid rgb(102, 100, 100);
+    border-left: 8px solid rgb(102, 100, 100);
+    border-right: 8px solid rgb(102, 100, 100);
+    margin: 1px 1% 1px 1%;
+    background-color: rgb(70, 153, 22);
+    text-align: center;
+}
+.header-section h1{
+    font-family: fantasy;
+    font-weight: bold;
+    font-size: 40px;
+}
+.animasi-ketik h2{
+        font-size: 20px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-style: initial;
+        width: 100%;
+        white-space:nowrap;
+        overflow:hidden;
+        -webkit-animation: typing 10s steps(80, end);
+        animation: animasi-ketik 10s steps(80, end);
+      }
+      @keyframes animasi-ketik{
+        from { width: 0; }
+      }
+      @-webkit-keyframes animasi-ketik{
+        from { width: 0; }
+      }
+.isi-section .Kembali h2{
+    background:brown;
+    font-weight: initial;
+}
+.Kembali h2 a{
+    color: brown;  
+}
+.isi-section h1{
+    text-align: center;
+    font-family: century;
+    display: block;
+    font-size: 30px;
+    margin-top: 5%;
+    color: brown;
+    font-weight: initial;
+}
+.pilihan p{
+    text-align: center;
+    font-size: 25px;
+    font-family: fantasy;
+    padding: 1em;
+}
+.pilihan p a{
+    text-decoration: none;
+    border:black 2px solid;
+    color: red;
+    border-radius: 5px;   
+    padding: auto;
+}
+.pilihan a:hover{
+    background-color: hotpink;
+    padding: 1.5em;
+}
+/*papan catur */
+.chessboard {
+    margin-top: 0px;
+    margin-right: 35%;
+    margin-left: 25%;
+    width: 55%;
+}
+.chessboard td{
+    margin-left: 15%;
+    height: 4.0em;
+}
+.chessboard th{
+    
+    text-align: center;
+    width: 4.0em;
+    height: 4.0em;
+    font-family: fantasy;
+}
+.chessboard td img{
+    width: 50%;
+    margin: auto;
+}
+.footer {
+  text-align: center;
+  font-family: century;
+  font-size: 20px;
+  font-weight: initial;
+  margin: 10.5% 2.5% 1px 2.5%;
+  padding: 2em;
+  background-color: rgb(70, 153, 22);
+  border-top: 8px solid rgb(68, 67, 67);
+    border-bottom: 8px solid rgb(102, 100, 100);
+    border-left: 8px solid rgb(102, 100, 100);
+    border-right: 8px solid rgb(102, 100, 100);
+}
+
+/*monopoly */
+.Monopoly{
+    margin-left: 5%;
+    border-image-width: 40%;
+}
+.Monopoly table{
+    margin-top: 1%;
+    margin-left: 1%;
+    border: black 1px solid;
+}
+.Monopoly table td{
+    border: black 1px solid;
+    width: 6em;
+    height: 6em;
+}
+
+.Monopoly .image{
+    margin: auto;
+   width: 100%;
+   background-color: rgb(99, 172, 99);
+}
